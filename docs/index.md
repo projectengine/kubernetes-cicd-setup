@@ -1,4 +1,6 @@
-# Kubernetes CI/CD Kurulumu ve Çeşitli Örnekler
+# Anasayfa
+
+Kubernetes CI/CD Kurulumu ve Çeşitli Örnekler
 
 ## Kurulum
 
