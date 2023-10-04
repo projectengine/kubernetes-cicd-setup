@@ -7,7 +7,7 @@
 3. argocd
 4. external-secrets (secret'lar için)
 
-# Dersler
+## Dersler
 
 1. docker
   - docker run
