@@ -20,5 +20,15 @@ kubectl get nodes
 ```sh
 helm repo add gitlab https://charts.gitlab.io/
 helm repo update
-helm upgrade --install gitlab gitlab/gitlab --set global.edition=ce --set global.hosts.https=false --set global.ingress.configureCertmanager=false
+helm upgrade --install gitlab gitlab/gitlab \
+    --set global.edition=ce \
+    --set global.hosts.https=false \
+    --set global.ingress.configureCertmanager=false
+```
+
+## ArgoCD
+
+```sh
+kubectl create namespace argocd
+kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
 ```
