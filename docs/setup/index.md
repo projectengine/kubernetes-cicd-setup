@@ -14,3 +14,11 @@ sudo mv ./kind /usr/local/bin/kind
 kind create cluster
 kubectl get nodes
 ```
+
+## Gitlab
+
+```sh
+helm repo add gitlab https://charts.gitlab.io/
+helm repo update
+helm upgrade --install gitlab gitlab/gitlab --set global.edition=ce --set global.hosts.https=false --set global.ingress.configureCertmanager=false
+```
