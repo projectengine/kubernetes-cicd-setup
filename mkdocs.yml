@@ -1,4 +1,15 @@
 site_name: Kubernetes CI/CD Setup
+nav:
+- Docker:
+  - docker/1-kurulum.md
+  - docker/2-helloworld.md
+  - docker/3-port.md
+  - docker/4-volume.md
+- Kubernetes: []
+- CI/CD:
+  - docker/index.md 
+  - Page 1: section/page-1.md
+  - Page n: section/page-n.md
 theme:
   name: material
   palette: 
@@ -19,3 +30,14 @@ theme:
     - navigation.expand
     - navigation.path
     - navigation.top
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
