@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # Anasayfa
 
 Kubernetes CI/CD Kurulumu ve Çeşitli Örnekler
