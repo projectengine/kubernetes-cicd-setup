@@ -5,11 +5,13 @@ nav:
   - docker/2-helloworld.md
   - docker/3-port.md
   - docker/4-volume.md
-- Kubernetes: []
-- CI/CD:
-  - docker/index.md 
-  - Page 1: section/page-1.md
-  - Page n: section/page-n.md
+  - docker/5-bash.md
+- Kubernetes:
+  - kubernetes/1-kurulum.md
+  - kubernetes/2-helloworld.md
+  - kubernetes/3-port.md
+  - kubernetes/4-volume.md
+- CI/CD: []
 theme:
   name: material
   palette: 
