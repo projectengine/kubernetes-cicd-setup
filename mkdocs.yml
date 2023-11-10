@@ -11,7 +11,8 @@ nav:
   - kubernetes/2-helloworld.md
   - kubernetes/3-port.md
   - kubernetes/4-volume.md
-- CI/CD: []
+- CI/CD:
+  - cicd/index.md
 theme:
   name: material
   palette: 
